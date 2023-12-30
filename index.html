@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mutre Cash System</title> 
+  <title>Mutre-Style</title> 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
@@ -57,27 +57,55 @@
     </div>      
     <hr>
 
+    <div id="drinkCounterAndDeposit" >
+      <span class="boldLabel">Getränkezähler: </span>
+      <span id="drinkCounter">0</span>
+      <span class="boldLabel">Pfand:</span>
+      <span > 2.0 € </span>
+      <select id="depositDropdown">
+          <option value="-10">-10</option>
+          <option value="-9">-9</option>
+          <option value="-8">-8</option>
+          <option value="-7">-7</option>
+          <option value="-6">-6</option>
+          <option value="-5">-5</option>
+          <option value="-4">-4</option>
+          <option value="-3">-3</option>
+          <option value="-2">-2</option>
+          <option value="-1">-1</option>
+          <option value="0" selected>0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+      </select>
+  </div>
+  <hr>
+
   </header>
 
   <main>
 
-    <!--  =================================== 
-          Nav Bar                             
-          -----------------------------------  -->
+    <!--  ==================================  -->
+    <!--  Main Content 1                      -->
+    <!--  ----------------------------------  -->
 
     <div id="content1" class="main-content">
       <table class="table table-hover" id="productsTable1">
         <tr>
             <th>Artikel</th>
             <th>Preis</th>
-            <th>Pfand</th>
-            <th>Menge</th>
-            <th>Pfand</th>
+            <th>Größe</th>
+            <th>Anzahl</th>
         </tr>
       </table>
     </div>
-
-
 
     <!--  ==================================  -->
     <!--  Main Content 2                      -->
@@ -86,11 +114,10 @@
     <div id="content2" class="main-content">
       <table class="table table-hover" id="productsTable2">
         <tr>
-            <th>Artikel</th>
-            <th>Preis</th>
-            <th>Pfand</th>
-            <th>Menge</th>
-            <th>Pfand</th>
+          <th>Artikel</th>
+          <th>Preis</th>
+          <th>Größe</th>
+          <th>Anzahl</th>
         </tr>
       </table>
     </div>
@@ -102,11 +129,10 @@
     <div id="content3" class="main-content">
       <table class="table table-hover" id="productsTable3">
         <tr>
-            <th>Artikel</th>
-            <th>Preis</th>
-            <th>Pfand</th>
-            <th>Menge</th>
-            <th>Pfand</th>
+          <th>Artikel</th>
+          <th>Preis</th>
+          <th>Größe</th>
+          <th>Anzahl</th>
         </tr>
       </table>
     </div>
@@ -118,11 +144,10 @@
     <div id="content4" class="main-content">
       <table class="table table-hover" id="productsTable4">
         <tr>
-            <th>Artikel</th>
-            <th>Preis</th>
-            <th>Pfand</th>
-            <th>Menge</th>
-            <th>Pfand</th>
+          <th>Artikel</th>
+          <th>Preis</th>
+          <th>Größe</th>
+          <th>Anzahl</th>
         </tr>
       </table>
     </div>
