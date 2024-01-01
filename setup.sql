@@ -48,26 +48,14 @@ INSERT INTO products2 (name, price, size, available) VALUES
 ('Cuba Libre / Perfect', 6.0, 0.4, 1),
 ('Aperol Spritz', 6.0, 0.4, 1),
 ('Lille Wild Berry', 6.0, 0.4, 1),
-('Notlösung', 5.0, 0.4, 1),
-('Oppmann Schwarzlack', 2.5, 0.25, 1),
-('Oppmann Classico', 2.5, 0.25, 1),
-('Sekt Orange', 2.5, 0.25, 1);
+('Notlösung', 5.0, 0.4, 1);
 
 INSERT INTO products3 (name, price, size, available) VALUES
-('Asbach Cola', 3.0, 0.20, 1),
-('Havana Cola', 3.0, 0.20, 1),
-('Jägermeister Cola', 3.0, 0.20, 1),
-('Capitan Morgan', 3.0, 0.20, 1),
-('Vodka O / Lemon / Cola', 3.0, 0.20, 1),
-('Jacky Cola', 3.5, 0.20, 1),
-('Mischung Bull', 3.5, 0.20, 1),
-('Asbach Cola', 6.0, 0.40, 1),
-('Havana Cola', 6.0, 0.40, 1),
-('Jägermeister Cola', 6.0, 0.40, 1),
-('Capitan Morgan', 6.0, 0.40, 1),
-('Vodka O / Lemon / Cola', 6.0, 0.40, 1),
-('Jacky Cola', 7.0, 0.40, 1),
-('Mischung Bull', 7.0, 0.40, 1);
+('Asbach Cola, Havana Cola, Jäger Cola, Capitan Cola, Vodka O/Lemon/Cola', 3.0, 0.20, 1),
+('Jacky Cola, Mischung Bull', 3.5, 0.20, 1),
+('Asbach Cola, Havana Cola, Jäger Cola, Capitan Cola, Vodka O/Lemon/Cola', 6.0, 0.40, 1),
+('Jacky Cola, Mischung Bull', 7.0, 0.40, 1),
+('Sekt Orange, Schwarzlack, Classico', 2.5, 0.25, 1);
 
 INSERT INTO products4 (name, price, size, available) VALUES
 ('Steak', 2.5, 0.0, 1),
