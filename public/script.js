@@ -87,6 +87,19 @@ document.addEventListener('DOMContentLoaded', function () {
       switchContent(contentId); // Umschalten des Inhalts
     });
   });
+
+
+  const depositDropdown = document.getElementById('depositDropdown');
+
+  // Füge Optionen zum select-Element hinzu
+  for (let i = -20; i <= 20; i++) {
+      const option = document.createElement('option');
+      option.value = i;
+      option.textContent = i;
+      depositDropdown.appendChild(option);
+      depositDropdown.value = 0;
+  }
+
 });
 
 
